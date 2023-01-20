@@ -1,11 +1,7 @@
-html{
-    background-image: url("Week 1\My Favorites\Background.jpg");
-    margin: 0 auto;
-    background-color: burlywood;
-}
-body {
+body{
+  margin: 0 auto;
+  background-color: cornflowerblue;
   display: inline-block;
-  background-color: rgba (99, 94, 87, 0.733);
   opacity: .7;
   padding: 25px;
   padding-left: 10%;
@@ -13,17 +9,16 @@ body {
   padding-bottom: 10%;
   font-family: Arial, sans-serif;
   font-size: large;
-
   }
   
   header {
     position: relative;
     color: #fff;
     padding: 20px;
+
   }
   
   .header-img {
-    background-image: url("Week 1\My Favorites\Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,11 +48,19 @@ body {
     text-decoration: none;
   }
   
+  .contain {
+    position: relative;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+  }
   .header-text {
-    position: absolute;
+    position: relative;
     bottom: 20px;
     left: 20px;
     text-shadow: 1px 1px #000;
+    margin-right: 20px
+ ;
   }
   
   .header-text h1 {
@@ -65,6 +68,7 @@ body {
   }
   
   .header-text p {
+    padding-top: 10%;
     font-size: 22px;
   }
   
